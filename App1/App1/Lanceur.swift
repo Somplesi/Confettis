@@ -20,7 +20,7 @@ class Lanceur: CAEmitterLayer {
     
     func setup(frame: CGRect) {
         emitterPosition = CGPoint(x: frame.width / 2, y: -10)
-        emitterShape = kCAEmitterLayerLine
+        emitterShape = CAEmitterLayerEmitterShape.line
         emitterSize = CGSize(width: frame.width, height: 2)
     }
     
